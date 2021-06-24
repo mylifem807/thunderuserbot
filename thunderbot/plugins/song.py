@@ -199,7 +199,7 @@ By - {}
         thundrgang.chat_id,
         f"{rip_data['id']}.mp4",
         supports_streaming=True,
-        caption=f"👉🏻 Song - {rip_data['title']}\n👉🏻 By - {rip_data['uploader']}\n⚡️Say Thanks To @thunderuserbot ⚡️\n",
+        caption=f"👉🏻 Song - {rip_data['title']}\n👉🏻 By - {rip_data['uploader']}\n⚡️Say Thanks To @thunderboldbot ⚡️\n",
     )
     os.remove(f"{rip_data['id']}.mp4")
     await x.delete()
