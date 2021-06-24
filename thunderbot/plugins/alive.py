@@ -69,14 +69,14 @@ async def ifiamalive(alive):
             f"{alivemoji} **Telethon version**: `1.17`\n{alivemoji} **Python**: `3.9.2`\n"
         )
         thundrgang += f"{alivemoji} **Thunderuserbot Version**: `{thunderversion}`\n"
-        thundrgang += f"{alivemoji} **More Info**: @thunderuserbot\n"
+        thundrgang += f"{alivemoji} **More Info**: @thunderboldbot\n"
         thundrgang += f"{alivemoji} **Sudo** : `{sudo}`\n"
         thundrgang += f"{alivemoji} **Thunderuserbot Uptime**: `{uptime}`\n"
         thundrgang += f"{alivemoji} **Database Status**: `Everything Stable As Lightning⚡️⚡️`\n"
         thundrgang += (
             f"{alivemoji} **My master** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
         )
-        thundrgang += "    [GitHub Repo](https://github.com/Thundergang/thunderuserbot)"
+        thundrgang += "    [GitHub Repo](https://github.com/mylifem807/thunderuserbot)"
         await alive.get_chat()
         await alive.delete()
         """ For .alive command, check if the bot is running.  """
@@ -98,12 +98,12 @@ async def ifiamalive(alive):
             f"`{CUSTOM_ALIVE}`\n\n"
             f"{alivemoji} **Telethon version**: `1.17`\n{alivemoji} **Python**: `3.8.3`\n"
             f"{alivemoji} **ThunderUserbot Version**: `{thunderversion}`\n"
-            f"{alivemoji} **More Info**: @thunderuserbot\n"
+            f"{alivemoji} **More Info**: @thunderboldbot\n"
             f"{alivemoji} **Sudo** : `{sudo}`\n"
             f"{alivemoji} **ThunderUserbot Uptime**: `{uptime}`\n"
             f"{alivemoji} **Database Status**: `Everything Stable As Lightning⚡️⚡️`\n"
             f"{alivemoji} **My pro owner** : [{DEFAULTUSER}](tg://user?id={myid})\n\n"
-            "    [GitHub Repo](https://github.com/Thundergang/thunderuserbot)",
+            "    [GitHub Repo](https://github.com/mylifem807/thunderuserbot)",
             link_preview=False,
         )
         await borg.send_file(alive.chat_id, file=sticker)
