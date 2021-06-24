@@ -37,7 +37,7 @@ logo = """
     z$"
    zP
   z"
- /    ThunderGang
+ /    
 ^
 """
 
@@ -49,7 +49,7 @@ async def add_bot(bot_token):
 
 async def startup_log_all_done():
     try:
-        await bot.send_message(THUND, f"**ThunderUserbot has been started**")
+        await bot.send_message(THUND, f"**ThunderboldUserbot has been started**")
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
 
@@ -79,7 +79,7 @@ for name in files:
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
 
-print("Thunderuserbot has been deployed! ")
+print("Thunderbolduserbot has been deployed! ")
 
 print("Setting up Assisting Bot")
 path = "thunderbot/plugins/lightningbot/*.py"
